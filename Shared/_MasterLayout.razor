@@ -9,11 +9,19 @@
 @* Other *@
 <MudDialogProvider />
 
+<style>
+    /* Active Navbar List */
+    .nav-list.active .heading2 {
+        color: #2E2E2E;
+        font-size: 20px;
+    }
+</style>
+
 @* Navbar *@
 <div class="navbar-top">
     <div class="heading1 text-medium-black">Khip01</div>
     <div class="link">
-        <div class="nav-list @GetActive("/", NavLinkMatch.All)">
+        <div class="nav-list @GetActive("https://khip01.github.io/Portfolio-Blazor/", NavLinkMatch.All)">
             <NavLink class="text-dark-gray heading2" style="text-decoration: none;" href="/">WELCOME</NavLink>
         </div>
         <div class="nav-list @GetActive("/creation", NavLinkMatch.All)">
@@ -114,9 +122,6 @@
     // Dark / Light Theme
     private MudTheme _theme = new();
     private bool _isDarkMode;
-
-    // Style for label Dark/Light Theme
-    private string LabelStyle;
 }
 
 @{
