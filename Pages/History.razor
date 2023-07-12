@@ -1,0 +1,278 @@
+﻿@page "/history"
+
+<PageTitle>Khip01 - History</PageTitle>
+
+<style>
+    /*.container-greeting {
+        padding: 15% 10%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .container-item {
+        margin-top: 70px;
+        padding: 0 10%;
+    }*/
+
+        /*.container-item .header {
+            padding-bottom: 1rem;
+        }
+
+        .container-item .container-main {
+            padding-left: 5%;
+        }
+
+            .container-item .container-main .container-head {
+                display: flex;
+                align-items: center;
+                width: auto;
+            }
+
+                .container-item .container-main .container-head .line {
+                    width: 300px;
+                    height: 100px;
+                    padding: 48px 0;
+                    box-sizing: border-box;
+                    border-left: 4px solid;
+                    background: #000 content-box;
+                    margin-right: 1rem;
+                }
+
+            .container-item .container-main .container-body {
+                display: flex;
+                align-items: center;
+            }
+
+                .container-item .container-main .container-body .line-body {
+                    width: 100px;
+                    height: 100px;
+                    padding: 48px 0;
+                    box-sizing: border-box;
+                    border-left: 4px solid;
+                    background: #000 content-box;
+                    margin-right: 1rem;
+                }*/
+
+
+    /* css style */
+    .container-greeting {
+        padding: 15% 10%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*.container-items {
+        margin: 70px;
+    }*/
+
+        /*.container-items .container-button {
+            display: grid;
+            grid-template-columns: 12rem 12rem 12rem;
+            justify-content: space-evenly;
+            width: 45rem;
+            margin: auto;
+        }*/
+
+            /*.container-items .container-button button {
+                padding: .5rem;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                background: transparent;
+            }
+
+                .container-items .container-button button img {
+                    width: 32px;
+                    height: 32px;
+                }*/
+
+        /*.container-items .container {
+            display: none;
+        }
+
+            .container-items .container.active {
+                 display: block; 
+                display: grid;
+                padding: 5rem 10%;
+                grid-template-columns: 25rem 25rem;
+                justify-content: space-around;
+                justify-items: center;
+                row-gap: 5rem;
+            }
+
+            .container-items .container .content-box img {
+                width: 313px;
+                height: 217px;
+            }*/
+
+    .quote {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+</style>
+
+<MudPaper Height="100%" Class="d-flex flex-grow-1 gap-4 mx-5 mb-8 mt-16" Elevation="0">
+    <MudPaper Elevation="4" Class="py-10 px-16 d-flex flex-1 justify-start">
+
+        <MudText Align="Align.Left" Style="width:100%">
+            <div class="container-greeting">
+                <div class="heading1 text-medium-black">
+                    A little History
+                </div>
+                <div class="text-black body-text">
+                    Here is a little overview of my recent history. <br />
+                    As a student who is still studying, I also share my study history in the form of a Roadmap in this History section.
+                </div>
+            </div>
+        </MudText>
+
+    </MudPaper>
+</MudPaper>
+
+<MudContainer Height="100%" Width="100%" MaxWidth="MaxWidth.Large" Class="py-2">
+    <div class="quote">
+        <div class="main body-text-small text-black">
+            <i>"Turn coding into an experience, not just a lesson."</i>
+        </div>
+        <div class="creator body-text text-medium-black">
+            <i>~ Aakhif</i>
+        </div>
+    </div>
+</MudContainer>
+
+<MudPaper Height="80vh" Elevation="4" Class="mx-5 mt-16">
+    <MudContainer MaxWidth="MaxWidth.Large" Class="py-8">
+        
+        @*Title Content Type*@
+        <MudPaper Height="80px" Width="100%" Square="true" Elevation="0" Class="px-8">
+            <div class="text-medium-black heading2 d-flex align-center">Last Activity <MudIcon Icon="@Icons.Material.Filled.AvTimer" Title="Recent" Size="Size.Large" Class="pl-2"/></div>
+            <div class="text-black body-text">The following is a history of activities that I have done.</div>
+        </MudPaper>
+
+        <MudPaper Elevation="0" Height="60vh" Class="overflow-auto">
+            <MudContainer Class="ma-0 pa-0" Style="height:100%">
+
+                @* Content Last Activity *@
+                <HistoryContentActivity ContentImageSrc="/lib/res-image/HawariTiger.png"
+                    ContentTitle="Freelance in Hawari Tiger as Software Developer"
+                    ContentPeriod="6 Months"
+                    ContentDesc="I worked freelance at CV Hawari Tiger Indonesia. At that time I was invited to join the IT developer team of the company. So I continued my education and also did freelance."
+                    IsAndroid="y"
+                    IsDesktop="y"/>
+
+            </MudContainer>
+        </MudPaper>
+
+
+    </MudContainer>
+</MudPaper>
+
+<MudPaper Height="80vh" Elevation="4" Class="mx-5 mt-16">
+    <MudContainer MaxWidth="MaxWidth.Large" Class="py-8">
+
+        @*Title Content Type*@
+        <MudPaper Height="80px" Width="100%" Square="true" Elevation="0" Class="px-8">
+            <div class="text-medium-black heading2 d-flex align-center">Education <MudIcon Icon="@Icons.Material.Filled.School" Title="My Education" Size="Size.Large" Class="pl-2" /></div>
+            <div class="text-black body-text">The following is the latest educational information that I have ever taken.</div>
+        </MudPaper>
+
+        <MudPaper Elevation="0" Height="60vh" Class="overflow-auto">
+            <MudContainer Class="ma-0 pa-0" Style="height:100%">
+
+                @* Content Education *@
+                <HistoryContentEducation 
+                    ContentImageSrc="/lib/res-image/LOGO_POLITEKNIK_NEGERI_MALANG.png"
+                    ContentTitle="Malang State Polytechnic, East Java, Indonesia"
+                    ContentPeriod="On Going"
+                    ContentDesc="I'm currently studying at the State Polytechnic of Malang."/>
+
+                <HistoryContentEducation
+                    ContentImageSrc="/lib/res-image/SMKN_1_Purwosari.png"
+                    ContentTitle="State Vocational School 1 Purwosari, East Java, Indonesia"
+                    ContentPeriod="3 Years"
+                    ContentDesc="I have completed Vocational High School majoring in Software Engineering in 2020 - 2023."/>
+
+            </MudContainer>
+        </MudPaper>
+
+
+    </MudContainer>
+</MudPaper>
+
+
+
+<MudPaper Height="100%" Class="d-flex flex-grow-1 mx-5 my-16" Elevation="0">
+    <MudPaper Elevation="4" Class="py-10 px-16 d-flex flex-1 gap-4 flex-column">
+
+        <MudText Align="Align.Center">
+            <div class="text-black heading2">
+                My roadmap history
+            </div>
+            <div class="text-black body-text">
+                I'm only showing this just to remember how I've come this far. Want to see it? <MudLink Typo="Typo.body2" OnClick="@ToggleOpen">Of course!</MudLink>
+            </div>
+        </MudText>
+
+        <MudContainer MaxWidth="MaxWidth.Medium">
+            <div class="d-flex justify-center">
+                <div style="position: relative; width: 100%;">
+                    <MudImage ObjectFit="ObjectFit.Cover" Height="120" Src="/lib/res/RoadMapClean.jpeg" Alt="RoadMapImage.jpeg" Elevation="25" Style="width:100%;" />
+
+                    @* A transparent background for the text *@
+                    <MudPaper Elevation="0" Class="rounded-0" Style="position: absolute; bottom: 5.8px; right: 0; opacity: 0.6; rounded-lg">
+
+                        @* Hack: the text is needed to give the transparent part the proper height, but will also display the text in 0.6 transparency *@
+                        <MudToggleIconButton @bind-Toggled="@_isOpen" Icon="@Icons.Material.Filled.Fullscreen" Style="@($"color:{Colors.Purple.Accent3};")" ToggledIcon="@Icons.Material.Filled.FullscreenExit" ToggledColor="@Color.Primary" />
+                    </MudPaper>
+
+                    @* The text (in black) *@
+                    <span style="position: absolute; bottom: 5.8px; right: 0; cursor: pointer">
+                        <MudToggleIconButton @bind-Toggled="@_isOpen" Icon="@Icons.Material.Filled.Fullscreen" Style="@($"color:{Colors.Purple.Accent3};")" ToggledIcon="@Icons.Material.Filled.FullscreenExit" ToggledColor="@Color.Primary" />
+                    </span>
+                </div>
+            </div>
+        </MudContainer>
+
+    </MudPaper>
+</MudPaper>
+
+
+@* Popup *@
+<MudPopover Open="@_isOpen" Fixed="true" AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.BottomCenter" Style="z-index: 1000">
+
+    <MudPaper Elevation="0" Height="100%" Width="100%">
+        <MudContainer Fixed="true" Class="py-6">
+            <MudContainer Style="height:70vh; padding-left:0; padding-right:0;" Class="overflow-auto">
+                <MudPaper Width="100%" Height="100%" Square="true" Class="pa-2" Elevation="0">
+                    <MudImage ObjectFit="ObjectFit.Cover" Src="/lib/res/MyRoadMap2023.jpg" Alt="MyRoadMapImage" Elevation="25" Style="width:100%;" />
+                </MudPaper>
+            </MudContainer>
+            <MudButton OnClick="@ToggleOpen" Class="ml-auto mr-n3 mb-1" Color="Color.Error">Close</MudButton>
+        </MudContainer>
+    </MudPaper>
+
+</MudPopover>
+
+@code{
+    // Popover
+    public bool _isOpen;
+
+    public void ToggleOpen()
+    {
+        if (_isOpen)
+        {
+            _isOpen = false;
+        }
+        else
+        {
+            _isOpen = true;
+        }
+    }
+}

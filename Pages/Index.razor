@@ -1,0 +1,124 @@
+﻿@page "/"
+
+@* Notif / Snackbar *@
+@inject ISnackbar SnackbarService
+
+
+<PageTitle>Khip01 - Discover</PageTitle>
+
+    <style>
+
+        .container {
+            padding: 7% 10%;
+            height: 60vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .container .description {
+            height: auto;
+        }
+
+        .container .container-button {
+            display: flex;
+            flex-direction: row;
+            width: 25rem;
+            justify-content: space-between;
+        }
+
+        .container .container-button .journey {
+            width: 184px;
+            height: 60px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            background: #BDBDBD;
+            border-radius: 12px;
+            border: none;
+        }
+
+        .container .container-button .journey:hover {
+            cursor: pointer;
+        }
+    </style>
+
+    
+
+<MudPaper Height="90vh" Class="d-flex align-center flex-grow-1 gap-4 " Elevation="0">
+    <MudPaper Elevation="4" Class="py-10 d-flex flex-1">
+        <div class="container">
+            <div class="sub-title text-medium-black heading2">Hello 👋</div>
+            <div class="title text-black heading1">
+                Aakhif here, I’m a Desktop and Mobile Developer
+            </div>
+            <div class="description text-black body-text">
+                My name is Akhmad Aakhif Athallah, a teenage student who is in the process of learning and has a strong desire to become a desktop and mobile application developer.
+            </div>
+            <div class="container-button">
+                <MudButton Target="blank" Href="https://github.com/Khip01" Class="pa-0">
+                    <button class="journey">
+                        <div class="body-text">See My Journey</div>
+                        <img class="logo" src="/lib/res/github.png" style="width:32px" />
+                    </button>
+                </MudButton>
+                <MudButton Target="blank" Href="" OnClick="@ShowSnackbar" Class="pa-0">
+                    <button class="journey">
+                        <div class="body-text">Download My CV</div>
+                        <img class="logo" src="/lib/res/cv.png" style="width:32px" />
+                    </button>
+                </MudButton>
+            </div>
+        </div>
+    </MudPaper>
+</MudPaper>
+
+    @*<script>
+        function goToGitHub() {
+            window.open("https://github.com/Khip01?tab=repositories", "_blank");
+        }
+    </script>*@
+
+@code {
+
+    // Show Snackbar but prevent multiple snackbar
+    private void ShowSnackbar()
+    {
+        // We'll set all three of these snackbars to prevent duplicates and give them
+        // all the same key ("mudblazor")
+        var config = (SnackbarOptions options) =>
+        {
+            options.DuplicatesBehavior = SnackbarDuplicatesBehavior.Prevent;
+        };
+        
+        SnackbarService.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+
+        // Then we try to show all three in quick succession, but only the first pops!
+        SnackbarService.Add(
+            "Oops sorry, I'll add it soon",
+            Severity.Info, 
+            config =>
+                {
+                    config.CloseAfterNavigation = true;
+                    config.ShowCloseIcon = false;
+                    config.Onclick = snackbar =>
+                    {
+                        return Task.CompletedTask;
+                    };
+                    config.VisibleStateDuration = 5000;
+                    config.HideTransitionDuration = 100;
+                    config.ShowTransitionDuration = 100;
+                    config.SnackbarVariant = Variant.Outlined;
+                },
+            key: "mudblazor");
+
+        //SnackbarService.Add(@<span>This one has the same key</span>, configure: config, key: "mudblazor");
+        //SnackbarService.Add<MudChip>(new Dictionary<string, object>() {
+        //    { "Text", "This one also has the same key" }
+        //}, configure: config, key: "mudblazor");
+    }
+}

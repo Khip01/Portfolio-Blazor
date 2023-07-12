@@ -1,0 +1,146 @@
+﻿@* Content *@
+<MudContainer Style="height:300px; width:100%;" Class="mb-8">
+    <MudPaper Height="100%" Class=@SetClassFlex(FlexType) Elevation="@SetElevation" @onmouseover="OnMouseOver" @onmouseout="OnMouseOut">
+
+        <MudContainer>
+            <MudText Align=@AlignType Style="height:150px;" Class="d-flex flex-1 flex-column justify-space-evenly">
+                <div class="text-black heading2" style="height: 30px">
+                    @TitleContent
+                </div>
+                <div class="text-black body-text" style="height: 50px;">
+                    @DescContent
+                </div>
+                <div class="text-black body-text-small" style="height: 20px;">
+                    @DateContent
+                </div>
+            </MudText>
+            <MudPaper Elevation="0" Style="height:50px;" Class=@SetAlignItem(AlignType)>
+                <MudPaper Elevation="0" Class=@SetClassFlexIcon(FlexType)>
+                    @if (@UsingGithub == "y")
+                    {
+                        <MudTooltip ShowOnHover="true" Text="Go To This Github Repo">
+                            <MudLink Target="blank" Href=@GithubLink>
+                                <MudIcon Icon="@Icons.Custom.Brands.GitHub" Title="GitHub" />
+                            </MudLink>
+                        </MudTooltip>
+                    }
+                    @if (@Executable == "y")
+                    {
+                        <MudTooltip ShowOnClick="true" ShowOnHover="true" Text="Available Installer or Executable File (Check Github Repo)">
+                            <MudIcon Icon="@Icons.Material.Rounded.SimCardDownload" Title="Download and Run" />
+                        </MudTooltip>
+                    }
+                </MudPaper>
+            </MudPaper>
+        </MudContainer>
+
+        <MudContainer Style="width: 90vh">
+            <MudPaper Height="230px" Width="100%" Square="true">
+                @if (@UsingCarousel != "y")
+                {
+                    <MudImage ObjectFit="ObjectFit.Cover" Src=@ImageSrc Alt="Project Preview" Elevation="25" Style="width:100%; height:100%;" />
+                } 
+                else
+                {
+                    <MudCarousel Class="mud-width-full" ItemsSource="@ImageSrcList" Style="height:100%;" ShowArrows="true" ShowBullets="false" EnableSwipeGesture="true" AutoCycle="true" AutoCycleTime=@(new TimeSpan(0, 0, 3))>
+                        <ItemTemplate>
+                            <div class="d-flex flex-column flex-column justify-center" style="height:100%">
+                                @*<MudIcon Class="mx-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />*@
+                                @*<MudText Align="@Align.Center" Class="mx-auto">@context</MudText>*@
+                                <MudImage ObjectFit="ObjectFit.Cover" Src=@context Alt="Project Preview" Elevation="25" Style="width:100%; height:100%;" />
+                            </div>
+                        </ItemTemplate>
+                    </MudCarousel>
+                }
+            </MudPaper>
+        </MudContainer>
+
+    </MudPaper>
+</MudContainer>
+
+@code {
+    // Param About Style Card
+    [Parameter]
+    public string FlexType { get; set; }
+
+    [Parameter]
+    public Align AlignType { get; set; }
+
+    // Param Content Source
+    [Parameter]
+    public string ImageSrc { get; set; } // If Not Using CArousel
+    
+    [Parameter]
+    public IList<string> ImageSrcList { get; set; } // If Using Carousel
+    
+    [Parameter]
+    public string TitleContent { get; set; }
+
+    [Parameter]
+    public string DescContent { get; set; }
+
+    [Parameter]
+    public string DateContent { get; set; }
+
+    // Param Github Link Icon
+    [Parameter]
+    public string UsingGithub { get; set; }
+
+    [Parameter]
+    public string GithubLink { get; set; }
+
+
+    // Param Is Executable Icon
+    [Parameter]
+    public string Executable { get; set; }
+    
+    // Param Is Using Carousel
+    [Parameter]
+    public string UsingCarousel { get; set; }
+
+
+    // Set The Flex Parameter and then process it
+    private string ClassFlex;
+
+    private string SetClassFlex(string flexType)
+    {
+        ClassFlex = "d-flex flex-1 align-center " + flexType;
+        return ClassFlex;
+    }
+
+    // Set Flex For Icon
+    private string ClassFlexIcon;
+
+    private string SetClassFlexIcon(string flexType)
+    {
+        ClassFlexIcon = SetClassFlex(flexType) + " gap-4";
+        return ClassFlexIcon;
+    }
+
+    // Set The Align Item Icon
+    public string AlignItem;
+
+    private string SetAlignItem(Align AlignType)
+    {
+        if(AlignType == Align.Right){
+            AlignItem = "d-flex flex-1 flex-column justify-space-evenly align-end";
+        } else if (AlignType == Align.Left)
+        {
+            AlignItem = "d-flex flex-1 flex-column justify-space-evenly align-start";
+        }
+        return AlignItem;
+    }
+
+    // Hover On Content
+    private int SetElevation = 0;
+
+    private void OnMouseOver()
+    {
+        SetElevation = 4;
+    }
+
+    private void OnMouseOut()
+    {
+        SetElevation = 0;
+    }
+}
