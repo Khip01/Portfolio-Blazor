@@ -1,0 +1,313 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\obj\\Release\\net7.0\\build-gz\\ON7GPWT6.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\obj\\Release\\net7.0\\scopedcss\\bundle\\Portfolio-Blazor.styles.css",
+      "PackagePath": "staticwebassets\\Portfolio-Blazor.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\styleDark.css",
+      "PackagePath": "staticwebassets\\css\\styleDark.css"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\css\\styleLight.css",
+      "PackagePath": "staticwebassets\\css\\styleLight.css"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\faviconCat.ico",
+      "PackagePath": "staticwebassets\\faviconCat.ico"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\CafeApp - KhipCafe.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\CafeApp - KhipCafe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\FlutterEdit.png",
+      "PackagePath": "staticwebassets\\lib\\res\\FlutterEdit.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\FlutterRead.png",
+      "PackagePath": "staticwebassets\\lib\\res\\FlutterRead.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\JamanuApp.png",
+      "PackagePath": "staticwebassets\\lib\\res\\JamanuApp.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\Kalah.png",
+      "PackagePath": "staticwebassets\\lib\\res\\Kalah.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\Kalkulator.png",
+      "PackagePath": "staticwebassets\\lib\\res\\Kalkulator.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\KalkulatorGUI.png",
+      "PackagePath": "staticwebassets\\lib\\res\\KalkulatorGUI.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\Login.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\Login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\MemilihKertas.png",
+      "PackagePath": "staticwebassets\\lib\\res\\MemilihKertas.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\MyFirstPortfolio.png",
+      "PackagePath": "staticwebassets\\lib\\res\\MyFirstPortfolio.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\MyFirstPortfolio2.png",
+      "PackagePath": "staticwebassets\\lib\\res\\MyFirstPortfolio2.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\MyFirstPortfolio3.png",
+      "PackagePath": "staticwebassets\\lib\\res\\MyFirstPortfolio3.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\MyFirstWebNative.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\MyFirstWebNative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\MyRoadMap2023.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\MyRoadMap2023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\NewsJamanu.png",
+      "PackagePath": "staticwebassets\\lib\\res\\NewsJamanu.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\PetugasSPPay2.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\PetugasSPPay2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\RegistrationForm.png",
+      "PackagePath": "staticwebassets\\lib\\res\\RegistrationForm.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\RoadMapClean.jpeg",
+      "PackagePath": "staticwebassets\\lib\\res\\RoadMapClean.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\SPPay Java 2.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\SPPay Java 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\SPPay Java.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\SPPay Java.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\SiswaSPPay2.jpg",
+      "PackagePath": "staticwebassets\\lib\\res\\SiswaSPPay2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\SolusiBisnis.png",
+      "PackagePath": "staticwebassets\\lib\\res\\SolusiBisnis.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\SolusiBisnis1.png",
+      "PackagePath": "staticwebassets\\lib\\res\\SolusiBisnis1.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\bootstrap.png",
+      "PackagePath": "staticwebassets\\lib\\res\\bootstrap.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\brightness.png",
+      "PackagePath": "staticwebassets\\lib\\res\\brightness.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\c-.png",
+      "PackagePath": "staticwebassets\\lib\\res\\c-.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\c-sharp.png",
+      "PackagePath": "staticwebassets\\lib\\res\\c-sharp.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\computer(1).png",
+      "PackagePath": "staticwebassets\\lib\\res\\computer(1).png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\computer.png",
+      "PackagePath": "staticwebassets\\lib\\res\\computer.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\css-3.png",
+      "PackagePath": "staticwebassets\\lib\\res\\css-3.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\cv.png",
+      "PackagePath": "staticwebassets\\lib\\res\\cv.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\domain(1).png",
+      "PackagePath": "staticwebassets\\lib\\res\\domain(1).png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\domain.png",
+      "PackagePath": "staticwebassets\\lib\\res\\domain.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\facebook.png",
+      "PackagePath": "staticwebassets\\lib\\res\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\git.png",
+      "PackagePath": "staticwebassets\\lib\\res\\git.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\github.png",
+      "PackagePath": "staticwebassets\\lib\\res\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\gmail.png",
+      "PackagePath": "staticwebassets\\lib\\res\\gmail.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\html.png",
+      "PackagePath": "staticwebassets\\lib\\res\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\icons8-flutter-480.png",
+      "PackagePath": "staticwebassets\\lib\\res\\icons8-flutter-480.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\icons8-laravel-96.png",
+      "PackagePath": "staticwebassets\\lib\\res\\icons8-laravel-96.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\instagram(1).png",
+      "PackagePath": "staticwebassets\\lib\\res\\instagram(1).png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\java(1).png",
+      "PackagePath": "staticwebassets\\lib\\res\\java(1).png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\moon2.svg",
+      "PackagePath": "staticwebassets\\lib\\res\\moon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\mysql.png",
+      "PackagePath": "staticwebassets\\lib\\res\\mysql.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\smartphone(1).png",
+      "PackagePath": "staticwebassets\\lib\\res\\smartphone(1).png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\smartphone.png",
+      "PackagePath": "staticwebassets\\lib\\res\\smartphone.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\sql-server (1).png",
+      "PackagePath": "staticwebassets\\lib\\res\\sql-server (1).png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res\\sun3.svg",
+      "PackagePath": "staticwebassets\\lib\\res\\sun3.svg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res_image\\HawariTiger.jpg",
+      "PackagePath": "staticwebassets\\lib\\res_image\\HawariTiger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res_image\\LOGO_POLITEKNIK_NEGERI_MALANG.png",
+      "PackagePath": "staticwebassets\\lib\\res_image\\LOGO_POLITEKNIK_NEGERI_MALANG.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\lib\\res_image\\SMKN_1_Purwosari.png",
+      "PackagePath": "staticwebassets\\lib\\res_image\\SMKN_1_Purwosari.png"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\A AAKHIF ATHALLAH\\Desktop\\Portfolio-Blazor\\wwwroot\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.published.js"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Portfolio-Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.Portfolio-Blazor.props",
+      "PackagePath": "build\\Portfolio-Blazor.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Portfolio-Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Portfolio-Blazor.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.Portfolio-Blazor.props",
+      "PackagePath": "buildTransitive\\Portfolio-Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

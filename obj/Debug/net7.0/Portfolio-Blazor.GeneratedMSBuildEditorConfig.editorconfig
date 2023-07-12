@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Portfolio-Blazor
+build_property.RootNamespace = Portfolio-Blazor
+build_property.ProjectDir = C:\Users\A AAKHIF ATHALLAH\Desktop\Portfolio-Blazor\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\A AAKHIF ATHALLAH\Desktop\Portfolio-Blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Pages/Creation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Pages/Further.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVydGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Pages/History.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/CreationContent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENyZWF0aW9uQ29udGVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/HistoryContentActivity.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhpc3RvcnlDb250ZW50QWN0aXZpdHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/HistoryContentEducation.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhpc3RvcnlDb250ZW50RWR1Y2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/PageNotfound.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2VOb3Rmb3VuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/_MasterLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9NYXN0ZXJMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gwkd7ulsp1
+
+[C:/Users/A AAKHIF ATHALLAH/Desktop/Portfolio-Blazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2zrrdgfzjj

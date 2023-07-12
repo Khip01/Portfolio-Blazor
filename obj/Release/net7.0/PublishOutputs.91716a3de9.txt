@@ -1,0 +1,1 @@
+C:\Users\A AAKHIF ATHALLAH\Desktop\Portfolio-Blazor\release\web.config
