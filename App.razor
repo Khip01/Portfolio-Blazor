@@ -1,12 +1,13 @@
 ﻿<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(_MasterLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
-        <PageTitle>Not found</PageTitle>
-        <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
+        <PageTitle>Khip01 - Not found</PageTitle>
+        <LayoutView Layout="@typeof(_MasterLayout)">
+            @*<p role="alert">Sorry, there's nothing at this address.</p>*@
+            <PageNotfound /> @* Menampilkan halaman Not Found*@
         </LayoutView>
     </NotFound>
 </Router>

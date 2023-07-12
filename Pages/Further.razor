@@ -1,0 +1,157 @@
+﻿@page "/further"
+
+<PageTitle>Khip01 - Further</PageTitle>
+
+<MudPaper Height="100%" Class="d-flex flex-grow-1 ma-8" Elevation="0">
+    <MudPaper Width="100%" Elevation="4" Class="py-10 px-16 d-flex flex-1 gap-4 flex-column">
+
+        <MudText Align="Align.Center">
+            <div class="text-black heading1">
+                Discover More
+            </div>
+            <div class="text-black body-text">
+                Hello, if you want to know more about me or just have a chat, you can take a peek at my social media. Greetings from Indonesia 👋. <MudLink Typo="Typo.body2" Target="blank" Href="@whatIsIndo">What is Indonesia?</MudLink>
+            </div>
+        </MudText>
+
+        <MudContainer MaxWidth="MaxWidth.Medium">
+            <MudPaper Height="150px" Width="100%" Square="true" Class="d-flex flex-row justify-space-evenly align-center flex-grow-1 gap-4" Elevation="0">
+
+                <MudContainer MaxWidth="MaxWidth.ExtraSmall">
+                    <MudPaper Height="70px" Width="100%" Class="d-flex flex-column align-center justify-space-around" Elevation="0">
+                        <MudTooltip Style="@($"background:{Colors.Grey.Darken4};")" Duration="500" Text="Visit My Github Profile" Placement="Placement.Top" Arrow="true">
+                            <MudLink Typo="Typo.body2" Target="blank" Href="@GithubLink"><MudIcon Class="cursor-pointer" Icon="@Icons.Custom.Brands.GitHub" Size="Size.Large" Title="Github" /></MudLink>
+                        </MudTooltip>
+                        <MudText Style="body-text" Class="text-dark-gray cursor-default">Khip01</MudText>
+                    </MudPaper>
+                </MudContainer>
+
+                <MudContainer MaxWidth="MaxWidth.ExtraSmall">
+                    <MudPaper Height="70px" Width="100%" Class="d-flex flex-column align-center justify-space-around" Elevation="0">
+                        <MudTooltip Style="@($"background:{Colors.Pink.Lighten1};")" Duration="500" Text="DM? This Is My Instagram" Placement="Placement.Top" Arrow="true">
+                            <MudLink Typo="Typo.body2" Target="blank" Href="@InstaLink"><MudIcon Class="cursor-pointer" Icon="@Icons.Custom.Brands.Instagram" Size="Size.Large" Title="Instagram" /></MudLink>
+                        </MudTooltip>
+                        <MudText Style="body-text" Class="text-dark-gray cursor-default">@@aakhifathallah</MudText>
+                    </MudPaper>
+                </MudContainer>
+
+                <MudContainer MaxWidth="MaxWidth.ExtraSmall">
+                    <MudPaper Height="70px" Width="100%" Class="d-flex flex-column align-center justify-space-around" Elevation="0">
+                        <MudTooltip Style="@($"background:{Colors.Blue.Accent3};")" Duration="500" Text="Other Social Media" Placement="Placement.Top" Arrow="true">
+                            <MudLink Typo="Typo.body2" Target="blank" Href="@FacebookLink"><MudIcon Class="cursor-pointer" Icon="@Icons.Custom.Brands.Facebook" Size="Size.Large" Title="Facebook" /></MudLink>
+                        </MudTooltip>
+                        <MudText Style="body-text" Class="text-dark-gray cursor-default">Akh Aakhif Lahh</MudText>
+                    </MudPaper>
+                </MudContainer>
+
+                <MudContainer MaxWidth="MaxWidth.ExtraSmall">
+                    <MudPaper Height="70px" Width="100%" Class="d-flex flex-column align-center justify-space-around" Elevation="0">
+                        <MudTooltip Style="@($"background:{Colors.Red.Darken2};")" Duration="500" Text="Direct Mail to Me?" Placement="Placement.Top" Arrow="true">
+                            <MudLink Typo="Typo.body2" Target="blank" Href="@GmailLink"><MudIcon Class="cursor-pointer" Icon="@Icons.Custom.Brands.Gmail" Size="Size.Large" Title="G-Mail" /></MudLink>
+                        </MudTooltip>
+                        <MudText Style="body-text" Class="text-dark-gray cursor-default">aakhifathallah24@@gmail.com</MudText>
+                    </MudPaper>
+                </MudContainer>
+
+            </MudPaper>
+        </MudContainer>
+
+    </MudPaper>
+</MudPaper>
+
+@*<MudPaper Height="" Class="flex-grow-1 gap-4 ma-8" Elevation="0">
+    <MudPaper Elevation="4" Class="py-10 px-16 d-flex flex-1 justify-end">
+
+        <MudContainer MaxWidth="MaxWidth.Medium">
+            <MudPaper Height="400px" Width="100%" Square="true" Class="mud-theme-primary">
+
+            </MudPaper>
+        </MudContainer>
+
+
+        <MudText Align="Align.Left">
+            <div class="footer">
+                <div class="footer-header">
+                    <div class="heading1 text-medium-black">
+                        Hit Me Up
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="body-text text-black username">@@Khip01</div>
+                    <div class="logo"><img src="/lib/res/github.png" /></div>
+                    <div class="body-text text-black description">Please visit my github if you want to know more about what I do</div>
+                </div>
+                <div class="content">
+                    <div class="body-text text-black username">@@aakhifathallah</div>
+                    <div class="logo"><img src="/lib/res/instagram(1).png" /></div>
+                    <div class="body-text text-black description">If you want to talk directly, you can visit my Instagram DM</div>
+                </div>
+                <div class="content">
+                    <div class="body-text text-black username">@@Akh Aakhif Lahh</div>
+                    <div class="logo"><img src="/lib/res/facebook.png" /></div>
+                    <div class="body-text text-black description">More options</div>
+                </div>
+                <div class="content">
+                    <div class="body-text text-black username">@@aakhifathallah24@gmail.com</div>
+                    <div class="logo"><img src="/lib/res/gmail.png" /></div>
+                    <div class="body-text text-black description">Notify me via Gmail</div>
+                </div>
+                <div class="creator">
+                    <div class="body-text text-light-black">Portfolio @@Khip01</div>
+                </div>
+            </div>
+
+        </MudText>
+
+    </MudPaper>
+</MudPaper>*@
+
+<MudPaper Height="" Class="flex-grow-1 gap-4 ma-8" Elevation="0">
+    <MudPaper Elevation="4" Class="py-10 px-16 d-flex flex-1 flex-column">
+
+        <MudText  Align="Align.Center" Class="pb-4">
+            <div class="text-black heading2">
+                Technology about this website
+            </div>
+        </MudText>
+        <MudText Align="Align.Center" Class="">
+            <div class="text-black body-text" style="display: flex;justify-content:center; margin: 10px 0;">
+                Made with
+                <MudTooltip Text="Go to Blazor Docs Microsoft">
+                    <MudLink Target="blank" Href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" Underline="Underline.None">
+                        <MudPaper Class="px-2 mx-2 text-black body-text" Style="@($"color:{Colors.Purple.Accent3};")">
+                            Blazor
+                        </MudPaper>
+                    </MudLink>
+                </MudTooltip>
+                Framework ASP.NET
+            </div>
+            <div class="text-black body-text" style="display: flex;justify-content:center; margin: 10px 0;">
+                UI Component Library
+                <MudTooltip Text="Go to MudBlazor Page">
+                    <MudLink Target="blank" Href="https://mudblazor.com/" Underline="Underline.None">
+                        <MudPaper Class="px-2 mx-2 text-black body-text" Style="@($"color:{Colors.DeepPurple.Lighten3};")"> 
+                            MudBlazor
+                        </MudPaper>
+                    </MudLink>
+                </MudTooltip>
+            </div>
+        </MudText>
+
+    </MudPaper>
+</MudPaper>
+
+
+@code {
+    // Link 
+    private string whatIsIndo = "https://www.google.com/search?q=What+is+Indonesia%3F&oq=What+is+Indonesia%3F&aqs=chrome..69i57.3518j0j1&sourceid=chrome&ie=UTF-8";
+
+    private string GithubLink = "https://github.com/Khip01";
+
+    private string InstaLink = "https://instagram.com/aakhifathallah?igshid=ZDc4ODBmNjlmNQ==";
+
+    private string FacebookLink = "https://www.facebook.com/aakhif.athallah?mibextid=ZbWKwL";
+
+    private string GmailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=aakhifathallah24@gmail.com&su=Your_Subject&body=Your_Desc";
+
+}

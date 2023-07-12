@@ -1,6 +1,8 @@
+﻿/* DEFAULT BLAZOR STYLE */
+
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-html, body {
+/*html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -18,10 +20,6 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 .content {
     padding-top: 1.1rem;
 }
@@ -37,7 +35,7 @@ a, .btn-link {
 .validation-message {
     color: red;
 }
-
+*/
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
@@ -67,35 +65,161 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
-.loading-progress {
-    position: relative;
-    display: block;
-    width: 8rem;
-    height: 8rem;
-    margin: 20vh auto 1rem auto;
+
+/* LOADING PAGE */
+.center-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    
+    /****** center box
+	width: 300px;
+	height: 300px;
+	border: solid 1px #aaa;
+	******/
 }
 
-    .loading-progress circle {
-        fill: none;
-        stroke: #e0e0e0;
-        stroke-width: 0.6rem;
-        transform-origin: 50% 50%;
-        transform: rotate(-90deg);
+.loader-spanne-20 {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}
+
+    .loader-spanne-20 > span {
+        position: absolute;
+        right: 0;
+        width: 3px;
+        height: 30px;
+        background-color: black;
+        display: block;
+        border-radius: 3px;
+        transform-origin: 50% 100%;
+        animation: move 2.8s linear infinite;
     }
 
-        .loading-progress circle:last-child {
-            stroke: #1b6ec2;
-            stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
-            transition: stroke-dasharray 0.05s ease-in-out;
+        .loader-spanne-20 > span:nth-child(1) {
+            animation-delay: -0.4s;
         }
 
-.loading-progress-text {
-    position: absolute;
-    text-align: center;
-    font-weight: bold;
-    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+        .loader-spanne-20 > span:nth-child(2) {
+            animation-delay: -0.8s;
+        }
+
+        .loader-spanne-20 > span:nth-child(3) {
+            animation-delay: -1.2s;
+        }
+
+        .loader-spanne-20 > span:nth-child(4) {
+            animation-delay: -1.6s;
+        }
+
+        .loader-spanne-20 > span:nth-child(5) {
+            animation-delay: -2s;
+        }
+
+        .loader-spanne-20 > span:nth-child(6) {
+            animation-delay: -2.4s;
+        }
+
+        .loader-spanne-20 > span:nth-child(7) {
+            animation-delay: -2.8s;
+        }
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateX(-40px) rotate(0deg);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(-50px) rotate(22deg);
+    }
+
+    85% {
+        opacity: 1;
+        transform: translateX(-85px) rotate(60deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-100px) rotate(65deg);
+    }
 }
 
-    .loading-progress-text:after {
-        content: var(--blazor-load-percentage-text, "Loading");
-    }
+
+.nav-list .heading2 {
+    font-size: 17px;
+    transition: font-size .1s ease-out 100ms;
+}
+
+/* Active Navbar List */
+.nav-list.active .heading2 {
+    color: #2E2E2E;
+    font-size: 20px;
+}
+
+/* Index in front only */
+.navbar-top {
+    z-index: 99999999;
+}
+
+
+/*                       Source Class                 */
+.heading1 {
+    /*position: absolute;*/
+    /*width: 207px;
+    height: 48px;*/
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 48px;
+}
+
+.heading2 {
+    /*position: absolute;*/
+    /*width: 135px;
+    height: 31px;*/
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 31px;
+}
+
+.body-text {
+    /*position: absolute;*/
+    /*width: 58px;*/
+    height: 27px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.body-text-small {
+    /*position: absolute;*/
+    /*width: 83px;*/
+    height: 24px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
