@@ -19,6 +19,8 @@ In short, in this repository, I will share my #2 Project Portfolio. In this port
 <br>
 All right, Nice to meet you.
 
+<br>
+
 ## Links about this portfolio
 - [Khip01.github.io/Portfolio-Blazor/](https://khip01.github.io/Portfolio-Blazor/) (It's better to use desktop mode)
 
