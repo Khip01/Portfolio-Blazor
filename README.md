@@ -1,6 +1,6 @@
 # My Portfolio - Portfolio-Blazor
 
-<img src="https://img.shields.io/badge/Type-Portofolio-yellowgreen?logo=files&logoColor=white" alt="Portofolio"> <img src="https://img.shields.io/badge/-Introduction-red" alt="Introduction">
+<img src="https://img.shields.io/badge/Type-Portfolio-yellowgreen?logo=files&logoColor=white" alt="Portofolio"> <img src="https://img.shields.io/badge/-Introduction-red" alt="Introduction">
 
 <br>
 
