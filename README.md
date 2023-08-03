@@ -36,4 +36,4 @@ All right, Nice to meet you.
 <br>
 
 # Use
-[![My Skills](https://skillicons.dev/icons?i=cs,)](https://github.com/Khip01)
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet)](https://github.com/Khip01)
